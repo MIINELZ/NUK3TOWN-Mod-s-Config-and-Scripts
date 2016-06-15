@@ -12,6 +12,7 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<TConstruct:LavaTank>);
 recipes.remove(<IC2:plasmaLauncher:1>);
 recipes.remove(<BuildCraft|Builders:fillerBlock>);
 recipes.remove(<BuildCraft|Builders:builderBlock>);
