@@ -14,9 +14,6 @@
 //#MARKER REMOVE
 recipes.remove(<TConstruct:LavaTank>);
 recipes.remove(<IC2:plasmaLauncher:1>);
-recipes.remove(<BuildCraft|Builders:fillerBlock>);
-recipes.remove(<BuildCraft|Builders:builderBlock>);
-recipes.remove(<BuildCraft|Builders:machineBlock>);
 recipes.remove(<TConstruct:explosive.slime>);
 recipes.remove(<TConstruct:explosive.slime:2>);
 recipes.remove(<Railcraft:machine.alpha>);
