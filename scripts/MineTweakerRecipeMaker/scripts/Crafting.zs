@@ -12,6 +12,59 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<BuildCraft|Builders:fillerBlock>);
+recipes.remove(<BuildCraft|Builders:builderBlock>);
+recipes.remove(<BuildCraft|Builders:machineBlock>);
+recipes.remove(<Railcraft:machine.alpha:14>);
+recipes.remove(<Railcraft:machine.alpha:8>);
+recipes.remove(<Railcraft:machine.beta:5>);
+recipes.remove(<Railcraft:machine.beta:6>);
+recipes.remove(<Railcraft:machine.beta:3>);
+recipes.remove(<Railcraft:machine.beta:4>);
+recipes.remove(<Railcraft:machine.beta>);
+recipes.remove(<Railcraft:machine.beta:1>);
+recipes.remove(<Railcraft:machine.beta:2>);
+recipes.remove(<Railcraft:machine.beta:13>);
+recipes.remove(<Railcraft:machine.beta:14>);
+recipes.remove(<Railcraft:machine.beta:15>);
+recipes.remove(<Railcraft:machine.alpha:7>);
+recipes.remove(<Railcraft:machine.alpha:12>);
+recipes.remove(<Railcraft:machine.alpha:3>);
+recipes.remove(<Railcraft:machine.alpha:14>);
+recipes.remove(<Railcraft:machine.alpha:8>);
+recipes.remove(<Railcraft:machine.alpha:15>);
+recipes.remove(<irontank:silverTank>);
+recipes.remove(<irontank:obsidianTank>);
+recipes.remove(<irontank:goldTank>);
+recipes.remove(<irontank:diamondTank>);
+recipes.remove(<irontank:copperTank>);
+recipes.remove(<irontank:ironTank>);
+recipes.remove(<irontank:copperSilverUpgrade>);
+recipes.remove(<irontank:copperIronUpgrade>);
+recipes.remove(<irontank:diamondObsidianUpgrade>);
+recipes.remove(<irontank:glassIronUpgrade>);
+recipes.remove(<irontank:glassCopperUpgrade>);
+recipes.remove(<irontank:goldDiamondUpgrade>);
+recipes.remove(<irontank:silverDiamondUpgrade>);
+recipes.remove(<irontank:ironGoldUpgrade>);
+recipes.remove(<irontank:silverGoldUpgrade>);
+recipes.remove(<irontank:silverGoldUpgrade>);
+recipes.remove(<TConstruct:Redstone.Landmine>);
+recipes.remove(<TConstruct:Redstone.Landmine:1>);
+recipes.remove(<TConstruct:Redstone.Landmine:2>);
+recipes.remove(<TConstruct:Redstone.Landmine:3>);
+recipes.remove(<Forestry:engine:3>);
+recipes.remove(<Forestry:engine:2>);
+recipes.remove(<Forestry:engine:1>);
+recipes.remove(<Railcraft:machine.beta:9>);
+recipes.remove(<Railcraft:machine.beta:8>);
+recipes.remove(<Railcraft:machine.beta:7>);
+recipes.remove(<Railcraft:machine.beta:7>);
+recipes.remove(<Forestry:engine>);
+recipes.remove(<BuildCraft|Core:engineBlock:2>);
+recipes.remove(<BuildCraft|Core:engineBlock:1>);
+recipes.remove(<Forestry:engine:4>);
+recipes.remove(<BuildCraft|Core:engineBlock>);
 recipes.remove(<TConstruct:LavaTank>);
 recipes.remove(<IC2:plasmaLauncher:1>);
 recipes.remove(<TConstruct:explosive.slime>);
@@ -45,4 +98,20 @@ recipes.remove(<flansmod:gunBox.modernweapons>);
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<irontank:obsidianTank>, [[<gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:17804>], [<gregtech:gt.metaitem.01:17804>, <irontank:diamondTank>, <gregtech:gt.metaitem.01:17804>], [<gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:17804>, <gregtech:gt.metaitem.01:17804>]]);
+recipes.addShaped(<irontank:diamondTank>, [[<gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:17500>], [<gregtech:gt.metaitem.01:17500>, <irontank:goldTank>, <gregtech:gt.metaitem.01:17500>], [<gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:17500>, <gregtech:gt.metaitem.01:17500>]]);
+recipes.addShaped(<irontank:goldTank>, [[<ore:plateGold>, <ore:plateGold>, <ore:plateGold>], [<ore:plateGold>, <irontank:silverTank>, <ore:plateGold>], [<ore:plateGold>, <ore:plateGold>, <ore:plateGold>]]);
+recipes.addShaped(<irontank:silverTank>, [[<ore:plateSilver>, <ore:plateSilver>, <ore:plateSilver>], [<ore:plateSilver>, <irontank:ironTank>, <ore:plateSilver>], [<ore:plateSilver>, <ore:plateSilver>, <ore:plateSilver>]]);
+recipes.addShaped(<irontank:ironTank>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:plateIron>, <irontank:copperTank>, <ore:plateIron>], [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+recipes.addShaped(<irontank:copperTank>, [[<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>], [<ore:plateCopper>, <BuildCraft|Factory:tankBlock>, <ore:plateCopper>], [<ore:plateCopper>, <ore:plateCopper>, <ore:plateCopper>]]);
+recipes.addShaped(<Forestry:engine:2>, [[<ore:plateDoubleBronze>, <gregtech:gt.metaitem.01:18300>, <gregtech:gt.metaitem.01:18300>], [<ore:gearGtBronze>, <ore:ingotBronze>, <gregtech:gt.metaitem.02:31300>], [<BuildCraft|Factory:tankBlock>, <BuildCraft|Core:engineBlock>, <BuildCraft|Factory:tankBlock>]]);
+recipes.addShaped(<Forestry:engine:1>, [[<gregtech:gt.metaitem.01:18032>, <gregtech:gt.metaitem.01:18032>, <gregtech:gt.metaitem.01:18032>], [<ore:gearIron>, <ore:ingotAnyIron>, <ore:gearIron>], [<minecraft:furnace>, <BuildCraft|Core:engineBlock>, <minecraft:chest>]]);
+recipes.addShaped(<Railcraft:machine.beta:9>, [[<gregtech:gt.metaitem.01:18305>, <gregtech:gt.metaitem.01:18305>, <gregtech:gt.metaitem.01:18305>], [<gregtech:gt.metaitem.02:31305>, <gregtech:gt.metaitem.01:11305>, <gregtech:gt.metaitem.02:31305>], [<BuildCraft|Factory:tankBlock>, <Railcraft:machine.beta:8>, <BuildCraft|Factory:tankBlock>]]);
+recipes.addShaped(<Railcraft:machine.beta:8>, [[<gregtech:gt.metaitem.01:18032>, <gregtech:gt.metaitem.01:18032>, <gregtech:gt.metaitem.01:18032>], [<gregtech:gt.metaitem.02:31032>, <minecraft:iron_ingot>, <gregtech:gt.metaitem.02:31032>], [<BuildCraft|Factory:tankBlock>, <Railcraft:machine.beta:7>, <BuildCraft|Factory:tankBlock>]]);
+recipes.addShaped(<Railcraft:machine.beta:7>, [[<gregtech:gt.metaitem.01:18301>, <gregtech:gt.metaitem.01:18301>, <gregtech:gt.metaitem.01:18301>], [<gregtech:gt.metaitem.02:31301>, <gregtech:gt.metaitem.01:11301>, <gregtech:gt.metaitem.02:31301>], [<BuildCraft|Factory:tankBlock>, <BuildCraft|Core:engineBlock>, <BuildCraft|Factory:tankBlock>]]);
+recipes.addShaped(<Forestry:engine>, [[<gregtech:gt.metaitem.01:18305>, <gregtech:gt.metaitem.01:18305>, <gregtech:gt.metaitem.01:18305>], [<gregtech:gt.metaitem.01:32518>, <BuildCraft|Core:engineBlock>, <gregtech:gt.metaitem.01:32518>], [<gregtech:gt.blockmachines:1382>, <gregtech:gt.blockmachines:161>, <gregtech:gt.blockmachines:1382>]]);
+recipes.addShaped(<BuildCraft|Core:engineBlock:2>, [[<ore:plateDoubleStainlessSteel>, <ore:plateDoubleStainlessSteel>, <ore:plateDoubleStainlessSteel>], [<ore:gearGtStainlessSteel>, <ore:ingotStainlessSteel>, <ore:gearGtStainlessSteel>], [<Railcraft:machine.beta:6>, <BuildCraft|Core:engineBlock>, <ore:craftingTank>]]);
+recipes.addShaped(<BuildCraft|Core:engineBlock:1>, [[<ore:plateDoubleSteel>, <ore:plateDoubleSteel>, <ore:plateDoubleSteel>], [<ore:gearSteel>, <ore:ingotSteel>, <ore:gearSteel>], [<Railcraft:machine.beta:5>, <BuildCraft|Core:engineBlock>, <Railcraft:machine.beta:5>]]);
+recipes.addShaped(<Forestry:engine:4>, [[<ore:gearIron>, <BuildCraft|Core:engineBlock>, <ore:gearIron>], [<gregtech:gt.metaitem.02:24305>, <minecraft:clock>, <gregtech:gt.metaitem.02:24305>], [null, <ore:stickSteel>, null]]);
+recipes.addShaped(<BuildCraft|Core:engineBlock>, [[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], [<ore:gearIron>, <ore:ingotIron>, <ore:gearIron>], [<ore:plateDoubleIron>, <ore:craftingPiston>, <ore:plateDoubleIron>]]);
 
