@@ -12,9 +12,6 @@
 
 // ================================================================================
 //#MARKER REMOVE
-recipes.remove(<BuildCraft|Builders:fillerBlock>);
-recipes.remove(<BuildCraft|Builders:builderBlock>);
-recipes.remove(<BuildCraft|Builders:machineBlock>);
 recipes.remove(<Railcraft:machine.alpha:14>);
 recipes.remove(<Railcraft:machine.alpha:8>);
 recipes.remove(<Railcraft:machine.beta:5>);
@@ -65,8 +62,6 @@ recipes.remove(<BuildCraft|Core:engineBlock:2>);
 recipes.remove(<BuildCraft|Core:engineBlock:1>);
 recipes.remove(<Forestry:engine:4>);
 recipes.remove(<BuildCraft|Core:engineBlock>);
-recipes.remove(<TConstruct:LavaTank>);
-recipes.remove(<IC2:plasmaLauncher:1>);
 recipes.remove(<TConstruct:explosive.slime>);
 recipes.remove(<TConstruct:explosive.slime:2>);
 recipes.remove(<Railcraft:machine.alpha>);
