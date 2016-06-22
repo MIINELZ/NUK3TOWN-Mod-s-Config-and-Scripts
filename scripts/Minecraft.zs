@@ -1,0 +1,1 @@
+recipes.addShapeless(<minecraft:sponge>, [<ore:blockWool>, <minecraft:water_bucket>.giveBack(<minecraft:bucket>)]);
