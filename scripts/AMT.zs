@@ -91,8 +91,10 @@ mods.amt.Plate.removeRecipe(<minecraft:leather>);
 recipes.removeShapeless(<minecraft:leather>);
 
 //Remove Cassis Preserve Recipe
-recipes.removeShapeless(<minecraft:magma_cream>, [cassis_preserve, <minecraft:blaze_powder>]); 
-recipes.removeShapeless(<minecraft:sticky_piston>, [cassis_preserve, <minecraft:piston>]); 
+recipes.removeShapeless(<minecraft:magma_cream>, [cassis_preserve, <minecraft:blaze_powder>]);
+recipes.addShapeless(<minecraft:magma_cream>, [<ore:slimeball>, <minecraft:blaze_powder>]);
+recipes.removeShapeless(<minecraft:sticky_piston>, [cassis_preserve, <minecraft:piston>]);
+recipes.addShapeless(<minecraft:sticky_piston>, [<ore:slimeball>, <minecraft:piston>]);
 recipes.remove(<minecraft:lead>);
 
 //Change Recipe of Tea Maker
@@ -129,3 +131,13 @@ recipes.addShaped(<DCsAppleMilk:defeatedcrow.evaporator>, [
 [null, <ore:ingotSilver>, null], 
 [<ore:bottleEmpty>, <ore:itemBlazeRod>, <ore:bottleEmpty>], 
 [<ore:ingotSilver>, <ore:gearChalcedony>, <ore:ingotSilver>]]);
+
+//Remove Easy Charcoal Container Recipe
+furnace.remove(<DCsAppleMilk:defeatedcrow.Charcoalcontainer>);
+recipes.addShaped(<DCsAppleMilk:defeatedcrow.Charcoalcontainer>, [
+[<minecraft:coal:1>, <minecraft:coal:1>, <minecraft:coal:1>],
+[<minecraft:coal:1>, <minecraft:coal:1>, <minecraft:coal:1>],
+[<minecraft:coal:1>, <minecraft:coal:1>, <minecraft:coal:1>]]);
+
+//Remove Easy Gunpowder
+recipes.removeShapeless(<minecraft:gunpowder>, [<minecraft:coal:1>, <minecraft:coal:1>, <minecraft:coal:1>, <minecraft:glowstone_dust>]);
