@@ -96,13 +96,13 @@ Assembler.addRecipe(<EnderIO:itemBasicFilterUpgrade>, <EnderIO:itemBasicCapacito
 //Basic
 Assembler.addRecipe(<EnderIO:itemBasicCapacitor>, <ore:circuitBasic> * 2, <gregtech:gt.blockmachines:1380> * 8, <liquid:molten.tin> * 250, 1200, 128);
 //Adv
-Assembler.addRecipe(<EnderIO:itemBasicCapacitor:1>, <ore:circuitAdvanced> * 2, <gregtech:gt.blockmachines:1482> * 2, <liquid:molten.tin> * 500, 1900, 196);
-//Add Bule Alloy
-recipes.addShapeless(<gregtech:gt.metaitem.01:2309> * 4, [<ore:dustCobalt>, <ore:dustCobalt>, <ore:dustIron>, <ore:dustIron>, <ore:dustIron>, <ore:dustSilver>, <ore:dustSilver>, <ore:dustAluminum>, <ore:dustAluminum>]);
-furnace.remove(<gregtech:gt.metaitem.01:11309>);
-mods.gregtech.BlastFurnace.addRecipe([<gregtech:gt.metaitem.01:11309>], <liquid:oxygen> * 2050, [<gregtech:gt.metaitem.01:2309>], 2400, 186, 2700);
+Assembler.addRecipe(<EnderIO:itemBasicCapacitor:1>, <ore:circuitAdvanced> * 2, <gregtech:gt.metaitem.01:17043> * 3, <liquid:molten.tin> * 500, 1900, 196);
+//Add Rubidium
+recipes.addShapeless(<gregtech:gt.metaitem.01:2043> * 3, [<ore:dustCobalt>, <ore:dustCobalt>, <ore:dustIron>, <ore:dustIron>, <ore:dustIron>, <ore:dustSilver>, <ore:dustSilver>, <ore:dustAluminum>, <ore:dustAluminum>]);
+furnace.remove(<gregtech:gt.metaitem.01:11043>);
+mods.gregtech.BlastFurnace.addRecipe([<gregtech:gt.metaitem.01:11043>], <liquid:oxygen> * 2050, [<gregtech:gt.metaitem.01:2043>], 2300, 186, 2700);
 //Ula
-Assembler.addRecipe(<EnderIO:itemBasicCapacitor:2>, <ore:circuitMaster> * 2, <gregtech:gt.blockmachines:1564> * 2, <liquid:molten.bluealloy> * 288, 2400, 320);
+Assembler.addRecipe(<EnderIO:itemBasicCapacitor:2>, <ore:circuitMaster> * 2, <gregtech:gt.blockmachines:1564> * 2, <liquid:molten.rubidium> * 288, 2400, 320);
 
 //New Ingot
 //Charged Alloy
@@ -119,42 +119,6 @@ mods.gregtech.ChemicalBath.addRecipe([<EnderIO:itemAlloy:5>], <EnderIO:itemAlloy
 mods.gregtech.FluidExtractor.addRecipe(<gregtech:gt.metaitem.01:2805>, <minecraft:ender_pearl> , <liquid:molten.enderium> * 144, 6000, 20, 4);
 //Soul Ingot
 mods.gregtech.BlastFurnace.addRecipe([<EnderIO:itemAlloy:7>], <liquid:molten.aluminium> * 100, [<minecraft:gold_ingot>, <minecraft:soul_sand> * 32], 2400, 120, 1700);
-
-//New Tools and Amror
-//Helmet
-recipes.addShaped(<EnderIO:item.darkSteel_helmet>, [
-[<gregtech:gt.metaitem.01:18364>, <gregtech:gt.metaitem.01:18364>, <gregtech:gt.metaitem.01:18364>],
-[<gregtech:gt.metaitem.01:17364>, <ore:craftingToolHardHammer>, <gregtech:gt.metaitem.01:17364>],
-[<EnderIO:itemBasicCapacitor:1>, <EnderIO:blockCapBank:2>, <EnderIO:itemBasicCapacitor:1>]]);
-//ChestPlate
-recipes.addShaped(<EnderIO:item.darkSteel_chestplate>, [
-[<EnderIO:itemBasicCapacitor:1>, <ore:craftingToolHardHammer>, <EnderIO:itemBasicCapacitor:1>],
-[<gregtech:gt.metaitem.01:17364>, <EnderIO:blockCapBank:2>, <gregtech:gt.metaitem.01:17364>],
-[<gregtech:gt.metaitem.01:18364>, <gregtech:gt.metaitem.01:18364>, <gregtech:gt.metaitem.01:18364>]]);
-//Leggings
-recipes.addShaped(<EnderIO:item.darkSteel_leggings>, [
-[<EnderIO:itemBasicCapacitor:1>, <EnderIO:blockCapBank:2>, <EnderIO:itemBasicCapacitor:1>],
-[<gregtech:gt.metaitem.01:17364>, <gregtech:gt.metaitem.01:18364>, <gregtech:gt.metaitem.01:17364>],
-[<gregtech:gt.metaitem.01:18364>, <ore:craftingToolHardHammer>, <gregtech:gt.metaitem.01:18364>]]);
-//Boots
-recipes.addShaped(<EnderIO:item.darkSteel_boots>, [
-[<EnderIO:itemBasicCapacitor:1>, null, <EnderIO:itemBasicCapacitor:1>],
-[<gregtech:gt.metaitem.01:17364>, <EnderIO:blockCapBank:2>, <gregtech:gt.metaitem.01:17364>],
-[<gregtech:gt.metaitem.01:17364>, <ore:craftingToolHardHammer>, <gregtech:gt.metaitem.01:17364>]]);
-//Sword
-recipes.addShaped(<EnderIO:item.darkSteel_sword>, [
-[<EnderIO:itemMaterial:6>, null, <EnderIO:itemAlloy:6>],
-[<EnderIO:itemAlloy:1>, <EnderIO:itemAlloy:6>, null],
-[<gregtech:gt.metaitem.01:23364>, <EnderIO:itemAlloy:1>, <EnderIO:itemMaterial:6>]]);
-//Axe
-recipes.addShaped(<EnderIO:item.darkSteel_axe>, [
-[<gregtech:gt.metaitem.01:18364>, <EnderIO:itemAlloy:1>, <EnderIO:itemMaterial:6>],
-[<gregtech:gt.metaitem.01:18364>, <gregtech:gt.metaitem.01:23364>, null],
-[<EnderIO:itemMaterial:6>, <gregtech:gt.metaitem.01:23364>, null]]);
-//Pickaxe
-recipes.addShaped(<EnderIO:item.darkSteel_pickaxe>, [[<ore:plateDoubleDarkSteel>, <ore:ingotVibrantAlloy>, <ore:ingotVibrantAlloy>], [<ore:plateDoubleDarkSteel>, <gregtech:gt.metaitem.01:23364>, <ore:itemVibrantCrystal>], [<ore:itemVibrantCrystal>, <ore:stickDarkSteel>, null]]);
-//Shears
-recipes.addShaped(<EnderIO:item.darkSteel_shears>, [[<ore:plateDoubleDarkSteel>, <EnderIO:itemMaterial:6>], [<ore:itemVibrantCrystal>, <EnderIO:itemAlloy:2>]]);
 
 //Glass
 mods.gregtech.AlloySmelter.addRecipe(<EnderIO:blockFusedQuartz> * 2, <minecraft:quartz> * 4, <ore:dustObsidian> * 2, 100, 30);
@@ -199,7 +163,6 @@ recipes.addShaped(<EnderIO:blockSliceAndSplice>, [[<ore:craftingToolSaw>, <gregt
 recipes.addShaped(<EnderIO:blockTelePad> * 2, [[<EnderIO:itemAlloy:5>, <EnderIO:blockEnderIo>, <EnderIO:itemAlloy:5>], [<EnderIO:itemAlloy:5>, <EnderIO:itemFrankenSkull:4>, <EnderIO:itemAlloy:5>], [<ore:craftingTeleporter>, <ore:craftingTeleporter>, <ore:craftingTeleporter>]]);
 recipes.addShaped(<gregtech:gt.metaitem.02:16100> * 8, [[<gregtech:gt.metaitem.02:19302>]]);
 recipes.addShaped(<Botania:pool:1>, [[<gregtech:gt.metaitem.02:19302>], [<gregtech:gt.metaitem.02:19302>]]);
-recipes.addShaped(<gregtech:gt.metaitem.02:24033> * 8, [[<minecraft:snow_layer>, <minecraft:snow_layer>], [<minecraft:snow_layer>, <minecraft:snow_layer>]]);
 recipes.addShaped(<EnderIO:blockTravelAnchor>, [[<EnderIO:itemAlloy:5>, <ore:pearlEnder>, <EnderIO:itemAlloy:5>], [<EnderIO:itemAlloy:3>, <EnderIO:blockEnderIo>, <EnderIO:itemAlloy:3>], [<ore:ingotVibrantAlloy>, <EnderIO:itemBasicCapacitor:1>, <ore:ingotVibrantAlloy>]]);
 recipes.addShaped(<EnderIO:blockEnderIo>, [[<ore:blockGlassHardened>, <ore:blockGlassHardened>, <ore:blockGlassHardened>], [<ore:blockGlassHardened>, <EnderIO:itemBasicCapacitor>, <ore:blockGlassHardened>], [<ore:ingotEnergeticAlloy>, <ore:pearlEnderEye>, <ore:ingotEnergeticAlloy>]]);
 recipes.addShaped(<EnderIO:blockInventoryPanel>, [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>], [<ore:plateIron>, <EnderIO:itemBasicCapacitor>, <ore:plateIron>], [<ore:ingotEnergeticAlloy>, <ore:ingotEnergeticAlloy>, <ore:ingotEnergeticAlloy>]]);
@@ -215,10 +178,13 @@ NEI.hide(<Botania:pool:1>);//[[<ore:blockGlass>, <Railcraft:part.plate>, <ore:bl
 recipes.addShaped(<EnderIO:blockReservoir> * 2, [[<gregtech:gt.metaitem.01:17028>, <gregtech:gt.metaitem.01:17028>, <gregtech:gt.metaitem.01:17028>], [<gregtech:gt.metaitem.01:17028>, <ore:craftingTank>, <gregtech:gt.metaitem.01:17028>], [<gregtech:gt.metaitem.01:17028>, <gregtech:gt.metaitem.01:17028>, <gregtech:gt.metaitem.01:17028>]]);
 recipes.addShaped(<EnderIO:blockWirelessCharger>, [[<ore:ingotDarkSteel>, <EnderIO:itemFrankenSkull:4>, <ore:ingotDarkSteel>], [<gregtech:gt.metaitem.01:32692>, <gregtech:gt.blockmachines:13>, <gregtech:gt.metaitem.01:32692>], [<ore:ingotDarkSteel>, <gregtech:gt.metaitem.01:32501>, <ore:ingotDarkSteel>]]);
 recipes.addShaped(<EnderIO:itemBasicFilterUpgrade:1>, [[<ore:gearGtSmallMagnalium>, <ore:craftingToolScrewdriver>, <ore:rotorSteelMagnetic>], [<ore:circuitBasic>, <EnderIO:itemBasicFilterUpgrade>, <ore:circuitBasic>], [<ore:rotorSteelMagnetic>, <ore:craftingToolFile>, <ore:gearGtSmallMagnalium>]]);
+recipes.addShaped(<Botania:pool:1>, [[<gregtech:gt.metaitem.02:19302>], [<gregtech:gt.metaitem.02:19302>]]);
+recipes.addShaped(<gregtech:gt.metaitem.02:24033> * 8, [[<minecraft:snow_layer>, <minecraft:snow_layer>], [<minecraft:snow_layer>, <minecraft:snow_layer>]]);
 recipes.addShaped(<EnderIO:blockFarmStation>, [[<EnderIO:itemAlloy:3>, <ore:ingotPhasedIron>, <EnderIO:itemAlloy:3>], [<minecraft:diamond_axe>, <EnderIO:itemFrankenSkull:2>, <minecraft:diamond_hoe>], [<EnderIO:itemBasicCapacitor:1>, <gregtech:gt.blockmachines:13>, <EnderIO:itemBasicCapacitor:1>]]);
 recipes.addShaped(<EnderIO:blockVat>, [[<gregtech:gt.blockmachines:5132>, <ore:craftingToolWrench>, <gregtech:gt.blockmachines:5132>], [<gregtech:gt.blockmachines:491>, <gregtech:gt.blockmachines:12>, <gregtech:gt.blockmachines:501>], [<gregtech:gt.blockmachines:5132>, <EnderIO:itemBasicCapacitor>, <gregtech:gt.blockmachines:5132>]]);
 recipes.addShaped(<EnderIO:blockCrafter>, [[<ore:craftingToolHardHammer>, <EnderIO:itemFrankenSkull>, <ore:craftingTableWood>], [<ore:craftingToolFile>, <gregtech:gt.blockmachines:12>, <ore:craftingToolScrewdriver>], [<ore:craftingTableWood>, <EnderIO:itemBasicCapacitor>, <ore:craftingToolWrench>]]);
 recipes.addShaped(<EnderIO:blockPainter>, [[<IC2:itemToolPainter>, <IC2:itemToolPainter>, <IC2:itemToolPainter>], [<ore:dyeLightBlue>, <gregtech:gt.blockmachines:12>, <ore:dye>], [<ore:dyeLightBlue>, <EnderIO:itemBasicCapacitor>, <ore:dyeLightBlue>]]);
+recipes.addShaped(<gregtech:gt.blockores:20129> * 8, [[null, null, <ore:wireFineInvar>], [null, <ore:wireFineInvar>, null], [<ore:wireFineInvar>, null, null]]);
 recipes.addShaped(<EnderIO:blockCapBank:3>, [[<ore:cableGt04TungstenSteel>, <EnderIO:itemBasicCapacitor:1>, <ore:cableGt04TungstenSteel>], [<ore:batteryMaster>, <ore:batteryMaster>, <ore:batteryMaster>], [<ore:cableGt04TungstenSteel>, <EnderIO:itemBasicCapacitor:2>, <ore:cableGt04TungstenSteel>]]);
 recipes.addShaped(<EnderIO:blockCapBank:2>, [[<ore:cableGt02Silver>, <EnderIO:itemBasicCapacitor:1>, <ore:cableGt02Silver>], [<gregtech:gt.metaitem.01:32502>, <gregtech:gt.metaitem.01:32502>, <gregtech:gt.metaitem.01:32502>], [<ore:cableGt02Silver>, <EnderIO:itemBasicCapacitor:1>, <gregtech:gt.blockmachines:1467>]]);
 recipes.addShaped(<EnderIO:blockCapBank:1>, [[<ore:plateIron>, <ore:circuitBasic>, <ore:plateIron>], [<gregtech:gt.blockmachines:1427>, <gregtech:gt.metaitem.01:32501>, <gregtech:gt.blockmachines:1427>], [<ore:plateIron>, <ore:circuitBasic>, <ore:plateIron>]]);
